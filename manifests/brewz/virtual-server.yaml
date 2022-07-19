@@ -45,10 +45,10 @@ spec:
         proxy:
           upstream: api
           rewritePath: /images
-     - path: /
-       matches:
-         - conditions:
-           - cookie: "app_version"
-             value: "dark"
-       action:
-         pass: spa-dark
+    - path: /
+      matches:
+        - conditions:
+          - cookie: "app_version"
+            value: "dark"
+      action:
+        pass: spa-dark
