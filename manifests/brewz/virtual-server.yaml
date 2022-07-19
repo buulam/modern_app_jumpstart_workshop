@@ -50,5 +50,5 @@ spec:
         - conditions:
           - cookie: "app_version"
             value: "dark"
-      action:
-        pass: spa-dark
+          action:
+            pass: spa-dark
