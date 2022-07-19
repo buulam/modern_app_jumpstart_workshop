@@ -196,11 +196,11 @@ apiVersion: apps/v1
     labels:
       app: spa-dark
     spec:
-    containers:
-      - name: spa-dark
-      image: ghcr.io/f5devcentral/spa-demo-app-spa:sha-c02c49a
-      ports:
-      - containerPort: 80
+      containers:
+        - name: spa-dark
+        image: ghcr.io/f5devcentral/spa-demo-app-spa:sha-c02c49a
+        ports:
+          - containerPort: 80
  ---
  apiVersion: v1
  kind: Service
